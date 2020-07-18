@@ -1,5 +1,206 @@
-#first {
-background: url(../images/header-bg.png);
-background-position: center;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* body{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+} */
+section{
+    height: 750px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+#top-banner {
+background-image: url(../images/header-bg.png);
 background-repeat: no-repeat;
+margin-bottom: 50px;
+}
+.hding{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 25px;
+}
+.hding-txt{
+    float: left;
+    width: 40%;
+    padding-left: 100px;
+    padding-top: 200px;
+    margin-right: 5px;
+    
+}
+.hding-txt h1{
+    font-family: 'Montserrat', sans-serif;
+    color: tomato;
+    font-size: 25px;
+    /* padding-top: 0px; */
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.hding-txt h2{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+}
+.hding-txt p{
+padding-bottom: 30px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+}
+.hding-txt a{
+    padding: 10px 15px;
+    background-image: linear-gradient(90deg, lightsalmon, tomato);
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.hding-img{
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+    
+
+}
+.hding-img img{
+    width: 100%;
+}
+/* Second Part */
+#biography{
+    background-image: url(../images/biography-bg.png);
+    /* background-repeat: no-repeat; */
+     /* padding-top: 100px;*/
+    padding-bottom: 500px; 
+}
+.bio-img{
+    width: 50%;
+    height: 700px;
+    float: left;
+}
+.bio-img img{
+ width: 100%;
+ height: 100%;
+ padding-top: 50px;
+}
+.bio-txt{
+    float: left;
+    width: 40%;
+    padding-left: 100px;
+    padding-top: 200px;
+    margin-right: 5px;
+    
+}
+.bio-txt h2{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+}
+.bio-txt p{
+padding-bottom: 30px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+}
+.bio-txt a{
+    padding: 10px 15px;
+    background-image: linear-gradient(90deg, lightsalmon, tomato);
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#work{
+    background-image: url(../images/latest-work-bg.png);
+    height: 500px;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+}
+.work-part{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.work-part h2{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.work-item{
+    float: left;
+    width: 31%;
+    margin: 10px;
+}
+.work-item img{
+    width: 100%;
+    
+}
+/* Last Part */
+#client-says{
+    background-image: url(../images/footer-bg.png);
+    padding-top: 20px;
+    text-align: center;
+    height: 500px;
+
+}
+
+.client-says h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.ftr-hed h3{
+font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+.ftr-hed h4{
+font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    padding-bottom: 50px;
+}.ftr-hed p{
+font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 80px;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+.ctct-eml{
+    margin: 0 auto;
+    width: 600px;
+    padding: 20px 150px;
+    background-image: linear-gradient(90deg, lightsalmon, tomato);
+    border-radius: 5px;
+}
+.ctct-eml h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.ctct-eml h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+#foter{
+    text-align: center;
+    margin-top: 50px;
+}
+#foter h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    
 }
